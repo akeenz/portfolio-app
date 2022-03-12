@@ -1,7 +1,8 @@
 #!/bin/bash
+#test
 #delete existing nodejs file if exist
-#rm -rf /home/ec2-user/nodejs
-mkdir /home/ec2-user/nodejs
-cd /home/ec2-user/nodejs
-
+# if [ -d "/home/ubuntu/nodejs" ]; then rm -Rf /home/ubuntu/nodejs; fi
+# mkdir /home/ubuntu/nodejs
+mkdir /home/ubuntu/myportfolio
+cd /home/ubuntu/myportfolio
 sudo npm install
